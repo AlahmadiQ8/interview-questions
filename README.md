@@ -1,3 +1,5 @@
+
+
 # General Interview Questions
 
 ## General Javascript 
@@ -48,11 +50,49 @@ var teacher1 = new Teacher('Dave', 'Griffiths', 'mathematics');
 
 [Source](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 
+### Can you name two programming paradigms important for JavaScript app developers?
+
+* Prototypal inheritance (also: prototypes, OLOO).
+* Functional programming (also: closures, first class functions, lambdas).
+
+[Source](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+### What is functional programming?
+
+* Pure functions / function puri
+* No shared states & mutable data
+* Avoid side-effects
+* Simple function composition
+
+[Source](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+### What are two-way data binding and one-way data flow, and how are they different?
+
+Two way data binding means that UI fields are bound to model data dynamically 
+such that when a UI field changes, the model data changes with it and vice-versa.
+
+One way data flow means that the model is the single source of truth. Changes 
+in the UI trigger messages that signal user intent to the model (or “store” in React). 
+Only the model has the access to change the app’s state. The effect is that data always flows in a single direction, which makes it easier to understand.
+
+[Source](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+### What is asynchronous programming, and why is it important in JavaScript?
+
+Synchronous programming means that, barring conditionals and function calls, 
+code is executed sequentially from top-to-bottom, blocking on long-running tasks 
+such as network requests and disk I/O.
+
+Asynchronous programming means that the engine runs in an event loop. When a 
+blocking operation is needed, the request is started, and the code keeps running 
+without blocking for the result. When the response is ready, an interrupt is fired, 
+which causes an event handler to be run, where the control flow continues. 
+In this way, a single program thread can handle many concurrent operations.
+
+[Source](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 
-
-
-### Basic JS programmming
+<!-- ### Basic JS programmming
 
 * Scope of variable
 * What is Associative Array? How do we use it?
@@ -78,3 +118,4 @@ var teacher1 = new Teacher('Dave', 'Griffiths', 'mathematics');
 Graceful Degradation V/s Progressive Enhancement
 
 
+ -->
