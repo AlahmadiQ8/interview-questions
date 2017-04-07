@@ -1,6 +1,7 @@
+# General Interview Questions
 
-Table of Contents
-=================
+
+## Table of Contents
 
 * [General Interview Questions](#general-interview-questions)
   * [General Javascript](#general-javascript)
@@ -11,8 +12,6 @@ Table of Contents
     * [What are two\-way data binding and one\-way data flow, and how are they different?](#what-are-two-way-data-binding-and-one-way-data-flow-and-how-are-they-different)
     * [What is asynchronous programming, and why is it important in JavaScript?](#what-is-asynchronous-programming-and-why-is-it-important-in-javascript)
 
-
-# General Interview Questions
 
 ## General Javascript 
 
@@ -85,7 +84,8 @@ such that when a UI field changes, the model data changes with it and vice-versa
 
 One way data flow means that the model is the single source of truth. Changes 
 in the UI trigger messages that signal user intent to the model (or “store” in React). 
-Only the model has the access to change the app’s state. The effect is that data always flows in a single direction, which makes it easier to understand.
+Only the model has the access to change the app’s state. The effect is that data 
+always flows in a single direction, which makes it easier to understand.
 
 [Source](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
@@ -103,6 +103,59 @@ In this way, a single program thread can handle many concurrent operations.
 
 [Source](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
+### What is prototypal inheritance?
+
+In a classical language, classes typically define the structure of objects, but 
+in a prototypal language, the objects themselves define their structure, and 
+this structure can be inherited and modified by other objects at runtime.
+
+Prototypal inheritance first appeared in Self and has since appeared in many 
+other languages, but these days most people think of JavaScript when they think 
+of prototypal inheritance.
+
+### An Object
+
+
+```javascript
+var foo = {
+  x: 10,
+  y: 20
+};
+```
+
+![](http://dmitrysoshnikov.com/wp-content/uploads/basic-object.png)
+
+[source](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/)
+
+### Prototype Chain
+
+
+```javascript
+var a = {
+  x: 10,
+  calculate: function (z) {
+    return this.x + this.y + z;
+  }
+};
+ 
+var b = {
+  y: 20,
+  __proto__: a
+};
+ 
+var c = {
+  y: 30,
+  __proto__: a
+};
+ 
+// call the inherited method
+b.calculate(30); // 60
+c.calculate(40); // 80
+```
+
+![](http://dmitrysoshnikov.com/wp-content/uploads/prototype-chain.png)
+
+[source](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/)
 
 <!-- ### Basic JS programmming
 
