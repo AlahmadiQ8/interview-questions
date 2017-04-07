@@ -233,6 +233,8 @@ console.log(
 );
 ```
 
+![](http://dmitrysoshnikov.com/wp-content/uploads/constructor-proto-chain.png)
+
 [Source](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/)
 
 <!-- ### Basic JS programmming
