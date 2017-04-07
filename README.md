@@ -1,4 +1,16 @@
 
+Table of Contents
+=================
+
+* [General Interview Questions](#general-interview-questions)
+  * [General Javascript](#general-javascript)
+    * [Write a function that sums a variable number of arguments\. Then apply the function to sum an array](#write-a-function-that-sums-a-variable-number-of-arguments-then-apply-the-function-to-sum-an-array)
+    * [Implement class inheritance in vanilla javascript](#implement-class-inheritance-in-vanilla-javascript)
+    * [Can you name two programming paradigms important for JavaScript app developers?](#can-you-name-two-programming-paradigms-important-for-javascript-app-developers)
+    * [What is functional programming?](#what-is-functional-programming)
+    * [What are two\-way data binding and one\-way data flow, and how are they different?](#what-are-two-way-data-binding-and-one-way-data-flow-and-how-are-they-different)
+    * [What is asynchronous programming, and why is it important in JavaScript?](#what-is-asynchronous-programming-and-why-is-it-important-in-javascript)
+
 
 # General Interview Questions
 
