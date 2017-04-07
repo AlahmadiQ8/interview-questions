@@ -1,10 +1,3 @@
----
-title: General Interview Questions
-date: 2017-4-7
-tags:
-- meta
----
-
 # General Interview Questions
 
 ## General Javascript 
