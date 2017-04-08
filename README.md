@@ -1,8 +1,6 @@
 # General Interview Questions
 
 
-
-
 ## Table of Contents
 
 
@@ -307,6 +305,7 @@ using ```delete Employee.company```. Or, we can also delete the ```emp1``` objec
 ```__proto__``` property ```delete emp1.__proto__.company```.
 
 [Source](https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z)
+
 
 
 <!-- ### Basic JS programmming
