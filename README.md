@@ -307,6 +307,42 @@ using ```delete Employee.company```. Or, we can also delete the ```emp1``` objec
 [Source](https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z)
 
 
+## MongoDb Questions
+
+### Schema design example
+
+* Library Management Application 
+  * Patrons/Users
+  * Books
+  * Authors
+  * Publishers
+
+```javascript 
+db.patrons.find({_id: "joe"})
+{
+  _id: "joe",
+  name: "Joe Bookreader",
+  FavoriteGenres: ['mystery', 'programming'],
+  address: {
+    street: '123 Fake St.',
+    city: "Faketown",
+    state: "MA",
+    zip: "12345"
+  }
+}
+```
+
+### Command to insert a document in a database called school and collection called persons.
+
+```javascript
+db.persons.insert( { name: 'mohammad', dept: 'EE' })
+```
+
+### Mention the command to list all the indexes on a particular collection
+
+```javascript
+db.collection.getIndexes()
+```
 
 <!-- ### Basic JS programmming
 
