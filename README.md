@@ -372,14 +372,13 @@ Each HTTP request includes five key elements:
 
 ### State The Core Components Of An HTTP Response
 
-Every HTTP response includes four key elements:
+1. *Verb* − Indicate HTTP methods such as GET, POST, DELETE, PUT etc.
+2. *URI* − Uniform Resource Identifier (URI) to identify the resource on server.
+3. *HTTP* Version − Indicate HTTP version, for example HTTP v1.1 .
+4. *Request Header* − Contains metadata for the HTTP Request message as key-value pairs. For example, client ( or browser) type, format supported by client, format of message body, cache settings etc.
+5. *Request Body* − Message content or Resource representation.
 
-1. Status/Response Code – Indicates Server status for the resource present in the HTTP request.For example, 404 means resource not found and 200 means response is ok.
-2. HTTP Version – Indicates HTTP version, for example-HTTP v1.1.
-3. Response Header – Contains metadata for the HTTP response message stored in the form of key-value pairs. For example, content length, content type, response date, and server type.
-4. Response Body – Indicates response message content or resource representation.
-
-[Source](http://www.techbeamers.com/rest-api-interview-questions-answers/)
+[Source](https://www.tutorialspoint.com/restful/restful_interview_questions.htm)
 
 ### Explain The Caching Mechanism?
 
