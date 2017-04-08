@@ -419,13 +419,13 @@ identified by session identifier passed by the client.
 
 Header | Description
 --- | ---
-Date | represents the date and time at which the message was originated
-Cache-Control | Used to specify directives that MUST be obeyed by all caching mechanisms along the request/response chain
-Last-Modified | Indicates the date and time at which the origin server believes the variant was last modified
-Location | For 201 (Created) responses, the Location is that of the new resource which was created by the request. For 3xx responses, the location SHOULD indicate the server's preferred URI for automatic redirection to the resource. The field value consists of a single absolute URI.
-Content-Type | The Content-Type entity-header field indicates the media type of the entity-body sent to the recipient or, in the case of the HEAD method, the media type that would have been sent had the request been a GET.
-Host | The Host request-header field specifies the Internet host and port number of the resource being requested, as obtained from the original URI given by the user or referring resource
-Accept | The Accept request-header field can be used to specify certain media types which are acceptable for the response. Accept headers can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image.
+**Date** | represents the date and time at which the message was originated
+**Cache-Control** | Used to specify directives that MUST be obeyed by all caching mechanisms along the request/response chain
+**Last-Modified** | Indicates the date and time at which the origin server believes the variant was last modified
+**Location** | For 201 (Created) responses, the Location is that of the new resource which was created by the request. For 3xx responses, the location SHOULD indicate the server's preferred URI for automatic redirection to the resource. The field value consists of a single absolute URI.
+**Content-Type** | The Content-Type entity-header field indicates the media type of the entity-body sent to the recipient or, in the case of the HEAD method, the media type that would have been sent had the request been a GET.
+**Host** | The Host request-header field specifies the Internet host and port number of the resource being requested, as obtained from the original URI given by the user or referring resource
+**Accept** | The Accept request-header field can be used to specify certain media types which are acceptable for the response. Accept headers can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image.
 
 [Source](http://www.restpatterns.org/HTTP_Headers)
 
