@@ -348,6 +348,41 @@ db.persons.insert( { name: 'mohammad', dept: 'EE' })
 db.collection.getIndexes()
 ```
 
+## Web Related Questions (REST, Security etc.)
+
+### State The Core Components Of An HTTP Request
+
+Each HTTP request includes five key elements:
+
+1. The Verb which indicates HTTP methods such as GET, PUT, POST, DELETE.
+2. URI stands for Uniform Resource Identifier (URI).It is the identifier for the resource on the server.
+3. HTTP Version which indicates HTTP version, for example-HTTP v1.1.
+4. Request Header carries metadata (as key-value pairs) for the HTTP Request message. Metadata could be a client (or browser) type, the format that client supports, message body format, and cache settings.
+5. Request Body indicates the message content or resource representation.
+
+[Source](http://www.techbeamers.com/rest-api-interview-questions-answers/)
+
+### State The Core Components Of An HTTP Response
+
+Every HTTP response includes four key elements:
+
+1. Status/Response Code – Indicates Server status for the resource present in the HTTP request.For example, 404 means resource not found and 200 means response is ok.
+2. HTTP Version – Indicates HTTP version, for example-HTTP v1.1.
+3. Response Header – Contains metadata for the HTTP response message stored in the form of key-value pairs. For example, content length, content type, response date, and server type.
+4. Response Body – Indicates response message content or resource representation.
+
+[Source](http://www.techbeamers.com/rest-api-interview-questions-answers/)
+
+### Explain The Caching Mechanism?
+
+Caching is a process of storing server response at the client end. It makes the 
+server save significant time from serving the same resource again and again.
+
+The server response holds information which leads a client to perform the caching. 
+It helps the client to decide how long to archive the response or not to store it at all.
+
+[Source](http://www.techbeamers.com/rest-api-interview-questions-answers/)
+
 <!-- ### Basic JS programmming
 
 * Scope of variable
