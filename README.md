@@ -1,6 +1,7 @@
 # General Interview Questions
 
 
+
 ## Table of Contents
 
 * [General Javascript](#general-javascript)
@@ -31,6 +32,11 @@
   * [Authentication \- Where to store Session IDs, tokens?](#authentication---where-to-store-session-ids-tokens)
   * [What is statelessness in RESTful Webservices?](#what-is-statelessness-in-restful-webservices)
   * [Common Headers](#common-headers)
+  * [Cache Control Directives](#cache-control-directives)
+  * [What are the best practices to be followed while designing a secure RESTful web service?](#what-are-the-best-practices-to-be-followed-while-designing-a-secure-restful-web-service)
+  * [HTTP Status Codes](#http-status-codes)
+
+
 
 
 
@@ -428,6 +434,65 @@ Header | Description
 **Accept** | The Accept request-header field can be used to specify certain media types which are acceptable for the response. Accept headers can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image.
 
 [Source](http://www.restpatterns.org/HTTP_Headers)
+
+### Cache Control Directives
+
+```
+cache-request-directive =
+       "no-cache"                          ; Section 14.9.1
+     | "no-store"                          ; Section 14.9.2
+     | "max-age" "=" delta-seconds         ; Section 14.9.3, 14.9.4
+     | "max-stale" [ "=" delta-seconds ]   ; Section 14.9.3
+     | "min-fresh" "=" delta-seconds       ; Section 14.9.3
+     | "no-transform"                      ; Section 14.9.5
+     | "only-if-cached"                    ; Section 14.9.4
+     | cache-extension                     ; Section 14.9.6
+
+cache-response-directive =
+     "public"                               ; Section 14.9.1
+   | "private" [ "=" <"> 1#field-name <"> ] ; Section 14.9.1
+   | "no-cache" [ "=" <"> 1#field-name <"> ]; Section 14.9.1
+   | "no-store"                             ; Section 14.9.2
+   | "no-transform"                         ; Section 14.9.5
+   | "must-revalidate"                      ; Section 14.9.4
+   | "proxy-revalidate"                     ; Section 14.9.4
+   | "max-age" "=" delta-seconds            ; Section 14.9.3
+   | "s-maxage" "=" delta-seconds           ; Section 14.9.3
+   | cache-extension                        ; Section 14.9.6
+```
+
+[Source](http://www.restpatterns.org)
+
+### What are the best practices to be followed while designing a secure RESTful web service?
+
+**Validation** − Validate all inputs on the server. Protect your server against SQL or NoSQL injection attacks.
+**Session based authentication** − Use session based authentication to authenticate a user whenever a request is made to a Web Service method.
+**No sensitive data in URL** − Never use username, password or session token in URL , these values should be passed to Web Service via POST method.
+**Restriction on Method execution** − Allow restricted use of methods like GET, POST, DELETE. GET method should not be able to delete data.
+**Validate Malformed XML/JSON** − Check for well formed input passed to a web service method.
+**Throw generic Error Messages** − A web service method should use HTTP error messages like 403 to show access forbidden etc.
+
+[Source](https://www.tutorialspoint.com/restful/restful_interview_questions.htm)
+
+
+### HTTP Status Codes 
+
+```
+200 - OK
+201 - Created
+202 - Accepted
+204 - No Content
+400 - Bad Request
+401 - Unauthorized
+402 - Payment Required
+403 - Forbidden
+404 - Not Found
+405 - Method Not Allowed
+500 - Internal Server Error
+```
+
+[Source](http://www.restpatterns.org/HTTP_Status_Codes)
+
 
 <!-- ### Basic JS programmming
 
