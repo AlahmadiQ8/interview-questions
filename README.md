@@ -18,6 +18,11 @@
     * [An Object](#an-object)
     * [Prototype Chain](#prototype-chain)
     * [Constructor](#constructor)
+  * [Javascript Puzzle Questions](#javascript-puzzle-questions)
+    * [Write a function that can determine whether a string is a palindrome in under 100 characters](#write-a-function-that-can-determine-whether-a-string-is-a-palindrome-in-under-100-characters)
+    * [How would you empty the array var arr = [1,2,3,4]?](#how-would-you-empty-the-array-var-arr--1234)
+    * [Write a mul function which mul(2)(3)(4) = 24](#write-a-mul-function-which-mul234--24)
+
 
 
 
