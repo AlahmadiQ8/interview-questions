@@ -418,7 +418,7 @@ identified by session identifier passed by the client.
 ### Common Headers 
 
 Header | Description
---- | --- | ---
+--- | ---
 Date | represents the date and time at which the message was originated
 Cache-Control | Used to specify directives that MUST be obeyed by all caching mechanisms along the request/response chain
 Last-Modified | Indicates the date and time at which the origin server believes the variant was last modified
