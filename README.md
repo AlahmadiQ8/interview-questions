@@ -1,9 +1,8 @@
 # General Interview Questions
 
 
-#### Table of Contents
+## Table of Contents
 
-* [Table of Contents](#table-of-contents)
 * [General Javascript](#general-javascript)
   * [Write a function that sums a variable number of arguments\. Then apply the function to sum an array](#write-a-function-that-sums-a-variable-number-of-arguments-then-apply-the-function-to-sum-an-array)
   * [Implement class inheritance in vanilla javascript](#implement-class-inheritance-in-vanilla-javascript)
