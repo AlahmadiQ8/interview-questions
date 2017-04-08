@@ -4,6 +4,10 @@
 ## Table of Contents
 
 
+
+## Table of Contents
+
+* [Table of Contents](#table-of-contents)
 * [General Javascript](#general-javascript)
   * [Write a function that sums a variable number of arguments\. Then apply the function to sum an array](#write-a-function-that-sums-a-variable-number-of-arguments-then-apply-the-function-to-sum-an-array)
   * [Implement class inheritance in vanilla javascript](#implement-class-inheritance-in-vanilla-javascript)
@@ -19,6 +23,11 @@
   * [Write a function that can determine whether a string is a palindrome in under 100 characters](#write-a-function-that-can-determine-whether-a-string-is-a-palindrome-in-under-100-characters)
   * [How would you empty the array var arr = [1,2,3,4]?](#how-would-you-empty-the-array-var-arr--1234)
   * [Write a mul function which mul(2)(3)(4) = 24](#write-a-mul-function-which-mul234--24)
+  * [Prototypal Inheritance \- What will be the output of the code below?](#prototypal-inheritance---what-will-be-the-output-of-the-code-below)
+* [MongoDb Questions](#mongodb-questions)
+  * [Schema design example](#schema-design-example)
+  * [Command to insert a document in a database called school and collection called persons\.](#command-to-insert-a-document-in-a-database-called-school-and-collection-called-persons)
+  * [Mention the command to list all the indexes on a particular collection](#mention-the-command-to-list-all-the-indexes-on-a-particular-collection)
 
 
 
