@@ -1,11 +1,7 @@
 # General Interview Questions
 
 
-## Table of Contents
-
-
-
-## Table of Contents
+#### Table of Contents
 
 * [Table of Contents](#table-of-contents)
 * [General Javascript](#general-javascript)
