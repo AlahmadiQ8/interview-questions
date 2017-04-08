@@ -3,6 +3,10 @@
 
 ## Table of Contents
 
+
+## Table of Contents
+
+* [Table of Contents](#table-of-contents)
 * [General Javascript](#general-javascript)
   * [Write a function that sums a variable number of arguments\. Then apply the function to sum an array](#write-a-function-that-sums-a-variable-number-of-arguments-then-apply-the-function-to-sum-an-array)
   * [Implement class inheritance in vanilla javascript](#implement-class-inheritance-in-vanilla-javascript)
@@ -23,6 +27,10 @@
   * [Schema design example](#schema-design-example)
   * [Command to insert a document in a database called school and collection called persons\.](#command-to-insert-a-document-in-a-database-called-school-and-collection-called-persons)
   * [Mention the command to list all the indexes on a particular collection](#mention-the-command-to-list-all-the-indexes-on-a-particular-collection)
+* [Web Related Questions (REST, Security etc\.)](#web-related-questions-rest-security-etc)
+  * [State The Core Components Of An HTTP Request](#state-the-core-components-of-an-http-request)
+  * [State The Core Components Of An HTTP Response](#state-the-core-components-of-an-http-response)
+  * [Explain The Caching Mechanism?](#explain-the-caching-mechanism)
 
 
 
