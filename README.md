@@ -2,6 +2,7 @@
 
 
 
+
 ## Table of Contents
 
 * [General Interview Questions](#general-interview-questions)
@@ -16,6 +17,8 @@
     * [What is prototypal inheritance?](#what-is-prototypal-inheritance)
     * [An Object](#an-object)
     * [Prototype Chain](#prototype-chain)
+    * [Constructor](#constructor)
+
 
 
 ## General Javascript 
@@ -236,6 +239,48 @@ console.log(
 ![](http://dmitrysoshnikov.com/wp-content/uploads/constructor-proto-chain.png)
 
 [Source](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/)
+
+
+## Javascript Puzzle Questions
+
+### Write a function that can determine whether a string is a palindrome in under 100 characters
+
+```javascript
+function isPalindrome(str) {
+  return (str.toLowerCase() == str.split('').reverse().join(''));
+}
+```
+
+[Source](https://www.upwork.com/i/interview-questions/javascript/)
+
+### How would you empty the array ```var arr = [1,2,3,4]```?
+
+```javascript
+arr.length = 0;
+
+arr.splice(0, arr.length);
+
+while(arr.length){
+    arr.pop();
+}
+
+arr = []
+```
+
+[Source](https://www.upwork.com/i/interview-questions/javascript/)
+
+
+### Write a ```mul``` function which ```mul(2)(3)(4) = 24```
+
+```javascript
+function mul (x) {
+  return function (y) { // anonymous function 
+    return function (z) { // anonymous function 
+      return x * y * z; 
+    };
+  };
+}
+```
 
 <!-- ### Basic JS programmming
 
